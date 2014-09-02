@@ -22,27 +22,27 @@ grunt.loadNpmTasks('grunt-create');
 ### Overview
 In your project's Gruntfile, add a section named `create` to the data object passed into `grunt.initConfig()`.
 
-	var spec = 'describe("Simple object", function() {\n    it("should say hi", function() {\n\r    });\n});'
-	var script = '(function() {\n\r}()};'
+var spec = 'describe("Simple object", function() {\n    it("should say hi", function() {\n\r    });\n});'
+var script = '(function() {\n\r}()};'
 	
- 		create: {
-			options: {
-				files: [
-					{
-						'type': 'js',
-						'content': script
-					},
-					{
-						'type': 'spec.js',
-						'content': spec
-					}
-				]
+create: {
+	options: {
+		files: [
+			{
+				'type': 'js',
+				'content': script
 			},
-			puth: {
-				src: ['js/', 'spec/']
+			{
+				'type': 'spec.js',
+				'content': spec
 			}
-		},
-		
-	grunt.loadNpmTasks('grunt-create');
-	
-	grunt create --new=newproject
+		]
+	},
+	puth: {
+		src: ['js/', 'spec/']
+	}
+},
+
+```shell
+grunt create --new=newproject
+```
