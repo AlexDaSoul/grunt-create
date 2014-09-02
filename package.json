@@ -1,0 +1,35 @@
+{
+  "name": "grunt-create",
+  "description": "Create files and folders with name from flag",
+  "version": "0.1.0",
+  "homepage": "https://github.com/LTN/grunt-create",
+  "author": {
+    "name": "Alex Duhnovsky",
+    "email": "al-teen@inbox.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LTN/grunt-create.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LTN/grunt-create/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/LTN/grunt-create/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
