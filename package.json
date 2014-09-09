@@ -1,15 +1,15 @@
 {
-  "name": "grunt-create-fd",
-  "description": "Create files and folders with name from flag",
+  "name": "grunt-create-cli",
   "version": "0.1.0",
-  "homepage": "https://github.com/LTN/grunt-create",
-  "author": {
-    "name": "Alex Duhnovsky",
-    "email": "al-teen@inbox.ru"
-  },
+  "description": "Create files and folders with name from flag",
+  "author": "al-teen <al-teen@inbox.ru>",
+  "contributors": [{
+	"name": "Create CLI",
+	"email": "al-teen@inbox.ru"
+}],
   "repository": {
     "type": "git",
-    "url": "git://github.com/LTN/grunt-create.git"
+    "url": "https://github.com/LTN/grunt-create.git"
   },
   "bugs": {
     "url": "https://github.com/LTN/grunt-create/issues"
@@ -27,6 +27,11 @@
     "grunt": "~0.4.5"
   },
   "keywords": [
-    "gruntplugin"
-  ]
+  "gruntplugin",
+  "create-cli"
+],
+  "publishConfig": {
+  "registry": "https://your-private-hosted-npm.registry.nodejitsu.com"
+},
+  "license": "MIT"
 }
