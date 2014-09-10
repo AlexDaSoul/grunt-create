@@ -3,7 +3,7 @@ module.exports = function (grunt) {
 	var util = grunt.util || grunt.utils,
 		_ = util._;
 
-	grunt.registerMultiTask('create-cli', function(prop) {
+	grunt.registerMultiTask('create', function(prop) {
 
 		var taskDone = this.async(),
 			name = grunt.option('new'),

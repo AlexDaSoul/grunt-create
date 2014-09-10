@@ -25,7 +25,7 @@ In your project's Gruntfile, add a section named `create-cli` to the data object
 	var spec = 'describe("Simple object", function() {\n    it("should say hi", function() {\n\r    });\n});'
 	var script = '(function() {\n\r}()};'
 	
- 		"create-cli": {
+ 		create: {
 			options: {
 				files: [
 					{
@@ -42,7 +42,6 @@ In your project's Gruntfile, add a section named `create-cli` to the data object
 				src: ['js/', 'spec/']
 			}
 		},
-		
-	grunt.loadNpmTasks('grunt-create-cli');
-	
-	grunt create-cli --new=newproject
+```js
+grunt create --new=newproject
+```	
